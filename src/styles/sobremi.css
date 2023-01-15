@@ -1,0 +1,75 @@
+*{
+    color: white;
+    font-weight: 400;
+}
+.inicio-1{
+    text-align: center;
+    font-size: 25px;
+}
+.inicio-1 h1:nth-child(2){
+    color: #00FFFF;
+}
+.inicio-1 button{
+    background: #00FFFF;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    height: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 121px;
+    font-size: 15px;
+}
+.inicio-1 a{
+    list-style: none;
+    text-decoration: none;
+    background: none;
+    color: black;
+}
+.inicio-2{
+    text-align-last: center;
+    margin-top: 50px;
+}
+.inicio-2 img{
+    width: 333px;
+    margin-top: 50px;
+}
+.whatsapp{
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    background-color: transparent;
+    position: fixed;
+}
+
+@media screen and (min-width:768px){
+    .inicio-1 {
+        font-size: 36px;
+    }
+    .inicio-2 img {
+        width: 413px;
+    }
+    .inicio-2{
+        align-self: center;
+    }
+}
+@media screen and (min-width:1024px){
+    .inicio{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    .inicio-1 {
+        font-size: 31px;
+        padding: 40px;
+        align-self: self-end;
+    }
+    .inicio-2 img {
+        width: 389px;
+        align-self: center;
+    }
+    .inicio-2{
+        align-self: center;
+    }
+}
