@@ -4,6 +4,8 @@ import Logo from '../img/Logo.png';
 import { useState } from 'react';
 //import styles
 import '../styles/header.css';
+//Import library
+import { Outlet, Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -30,13 +32,13 @@ const Header = () => {
 
         <nav className={ `Header-nav ${ menu ? 'isActive' : '' }` }>
             <ul className="Header-ul">
-                <li className="Header-li"><a href="#" className="Header-a">Inicio</a></li>
-                <li className="Header-li"><a href="#" className="Header-a">Sobre mi</a></li>
-                <li className="Header-li"><a href="#" className="Header-a">Portafolio</a></li>
-                <li className="Header-li"><a href="#" className="Header-a">Contacto</a></li>
+                <li className="Header-li"> <Link to="inicio">Inicio</Link> </li>
+                <li className="Header-li"> <Link to="sobremi">Sobre mi</Link> </li>
+                <li className="Header-li"> <Link to="portafolio">Portafolio</Link> </li>
+                <li className="Header-li"> <Link to="contacto">Contacto</Link> </li>
             </ul>
         </nav>
-
+        <Outlet/>
     </header>
 )
 }

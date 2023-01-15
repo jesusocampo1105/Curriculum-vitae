@@ -34,6 +34,13 @@
     width: 333px;
     margin-top: 50px;
 }
+.whatsapp{
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    background-color: transparent;
+}
 
 @media screen and (min-width:768px){
     .inicio-1 {
