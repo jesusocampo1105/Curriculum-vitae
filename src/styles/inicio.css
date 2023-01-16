@@ -55,7 +55,6 @@
 @media screen and (min-width:1024px){
     .inicio{
         display: flex;
-        margin-top: 100px;
         justify-content: center;
     }
     .inicio-1 {

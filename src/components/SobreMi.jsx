@@ -8,6 +8,7 @@ const SobreMi = () => {
   return (
     <>
       <article className="inicio">
+
         <section className="inicio-2">
           <img src={image} />
         </section>
@@ -27,6 +28,7 @@ const SobreMi = () => {
         <a href="https://api.whatsapp.com/send?phone=573232014153&text=Hola%2C%20Vi%20tu%20CV%20y%20portafolio%20online...">
           <img className="whatsapp" src={whatsapp} />
         </a>
+        
       </article>
     </>
   );
