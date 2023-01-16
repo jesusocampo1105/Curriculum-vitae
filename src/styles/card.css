@@ -1,0 +1,20 @@
+.card-body{
+    background: #00FFFF;
+    text-align: center;
+}
+.card-body img{
+    background: #00FFFF;
+}
+.card-title{
+    background: #00FFFF;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+}
+.title-card{
+    text-decoration: none;
+}
+.cards{
+    margin-top: 20px;
+}

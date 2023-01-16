@@ -7,6 +7,7 @@ import Inicio from './components/Inicio';
 import SobreMi from './components/SobreMi';
 import Portafolio from './components/Portafolio';
 import Contacto from './components/Contacto';
+import Card from './components/Card';
 
 function App() {
   return (

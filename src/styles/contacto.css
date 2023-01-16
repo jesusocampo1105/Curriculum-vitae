@@ -1,0 +1,38 @@
+*{
+    overflow-x: hidden;
+}
+.contact-section{
+    display: flex;
+    padding: 27px;
+    margin-top: 20px;
+}
+.contact-section img{
+    width: 40px;
+    height: 40px;
+}
+.contact-section h1{
+    font-size: 13px;
+    align-self: center;
+    overflow: hidden;
+}
+.whatsapp{
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    background-color: transparent;
+    position: fixed;
+}
+
+@media screen and (min-width:768px){
+    .contact-section {
+        justify-content: center;
+    }
+    .contact-section img {
+        width: 56px;
+        height: 57px;
+    }
+    .contact-section h1 {
+        font-size: 22px;
+    }
+}

@@ -1,9 +1,12 @@
-import React from 'react'
+//Import components
+import Cards from './Cards'
 
 const Portafolio = () => {
   return (
-    <div>Portafolio</div>
+    <>
+    <Cards/>
+    </>
   )
 }
 
-export default Portafolio
+export default Portafolio;
